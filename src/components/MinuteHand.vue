@@ -22,11 +22,11 @@ export default {
     valueCopy(newVal, oldVal) {
       this.time.minutes = newVal
 
-      if (oldVal < 1 && newVal > 59) {
+      if (oldVal < 15 && newVal > 45) {
         if (this.time.hours == 0 || this.time.hours == null) this.time.hours = 11
         else this.time.hours--
       }
-      if (oldVal > 59 && newVal < 1) {
+      if (oldVal > 45 && newVal < 15) {
         if (this.time.hours == 11) this.time.hours = 0
         else this.time.hours++
       }
