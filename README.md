@@ -1,5 +1,9 @@
 # clock.vue
 
+An analouge clock where you can set the time by dragging the clock handles.
+
+Live demo at https://codesandbox.io/s/vue-template-blsqm?fontsize=12&module=%2Fsrc%2FApp.vue
+
 ## Project setup
 ```
 npm install
