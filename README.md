@@ -1,4 +1,4 @@
-# clock.vue
+# clock.vue example
 
 An analouge clock where you can set the time by dragging the clock handles.
 
